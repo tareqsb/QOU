@@ -1,0 +1,1127 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote, figure {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+body {
+	-epub-hyphens:auto;
+}
+div.Basic-Text-Frame {
+	border-style:solid;
+}
+div.إطارات_اطار-نص-التبويب {
+	border-style:solid;
+}
+div.محاذاة_محاذاة-يسار---inline {
+	border-style:solid;
+}
+img.محاذاة_محاذاة-يمين-في-خلية {
+	border-style:solid;
+}
+table.Basic-Table {
+	border-collapse:collapse;
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	margin-bottom:-4px;
+	margin-top:4px;
+}
+td.Basic-Table, th.Basic-Table {
+	border-left-width:1px;
+	border-left-style:solid;
+	border-left-color:#000000;
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:#000000;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#000000;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:4px;
+	padding-right:4px;
+	vertical-align:top;
+}
+table.No-Table-Style {
+	border-collapse:collapse;
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	margin-bottom:-4px;
+	margin-top:4px;
+}
+td.No-Table-Style, th.No-Table-Style {
+	border-left-width:1px;
+	border-left-style:solid;
+	border-left-color:#000000;
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:#000000;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#000000;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:4px;
+	padding-right:4px;
+	vertical-align:top;
+}
+td.بدون-حدود {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:0px;
+	vertical-align:middle;
+}
+td.ترويسة-جدول-المحتويات {
+	background-color:#bcbec0;
+	border-bottom-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-top-width:0px;
+	padding-bottom:0px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:0px;
+	vertical-align:middle;
+}
+td.حدود-رفيعة {
+	border-bottom-color:#006991;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#006991;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#006991;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#006991;
+	border-top-style:solid;
+	border-top-width:1px;
+	padding-bottom:3px;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:3px;
+	vertical-align:middle;
+}
+td.حدود-مزدوجة {
+	border-bottom-color:#006991;
+	border-bottom-style:double;
+	border-bottom-width:2px;
+	border-left-color:#006991;
+	border-left-style:double;
+	border-left-width:2px;
+	border-right-color:#006991;
+	border-right-style:double;
+	border-right-width:2px;
+	border-top-color:#006991;
+	border-top-style:double;
+	border-top-width:2px;
+	padding-bottom:3px;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:3px;
+	vertical-align:middle;
+}
+p.No-Spacing {
+	color:#000000;
+	font-family:Arial, sans-serif;
+	font-size:13px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:8px;
+	margin-left:4px;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Normal {
+	color:#000000;
+	font-family:"Yakout Linotype", serif;
+	font-size:13px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:0.9;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:right;
+	text-decoration:none;
+	text-indent:28px;
+	text-transform:none;
+	widows:1;
+}
+p.Basic-Paragraph {
+	color:#000000;
+	font-family:"Adobe Arabic", serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:3px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_TOC_عنوان-مستوى-1 {
+	color:#000000;
+	font-family:"Yakout Linotype", serif;
+	font-size:13px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.462;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_TOC_عنوان-مستوى-2 {
+	color:#000000;
+	font-family:"Yakout Linotype", serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1.583;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:28px;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_اقسام-تفاعلية_التقويم-الذاتي {
+	color:#006991;
+	font-family:"Yakout Linotype", serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1.357;
+	list-style-position:inside;
+	list-style-type:decimal;
+	margin-bottom:11px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:99;
+	page-break-after:avoid;
+	page-break-before:auto;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_اقسام-تفاعلية_تدريب {
+	color:#006991;
+	font-family:"Yakout Linotype", serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1.357;
+	list-style-position:inside;
+	list-style-type:decimal;
+	margin-bottom:11px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:99;
+	page-break-after:avoid;
+	page-break-before:auto;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_اقسام-تفاعلية_نشاط {
+	color:#006991;
+	font-family:"Yakout Linotype", serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1.357;
+	list-style-position:inside;
+	list-style-type:decimal;
+	margin-bottom:11px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:99;
+	page-break-after:avoid;
+	page-break-before:auto;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_تنقيط-وترقيم_أ--ترقيم-تلقائي {
+	color:#000000;
+	font-family:"Yakout Linotype", serif;
+	font-size:13px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1.462;
+	list-style-position:outside;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:57px;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:right;
+	text-decoration:none;
+	text-indent:-6px;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_تنقيط-وترقيم_ترقيم-تلقائي-- {
+	color:#000000;
+	font-family:"Yakout Linotype", serif;
+	font-size:13px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1.462;
+	list-style-position:outside;
+	list-style-type:decimal;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:28px;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:right;
+	text-decoration:none;
+	text-indent:-6px;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_تنقيط-وترقيم_تنقيط-- {
+	color:#000000;
+	font-family:"Yakout Linotype", serif;
+	font-size:13px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1.462;
+	list-style-position:outside;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:28px;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:right;
+	text-decoration:none;
+	text-indent:-14px;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_تنقيط-وترقيم_تنقيط-• {
+	color:#000000;
+	font-family:"Yakout Linotype", serif;
+	font-size:13px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1.462;
+	list-style-position:outside;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:28px;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:right;
+	text-decoration:none;
+	text-indent:-14px;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_تنقيط-وترقيم_عناوين_ترقيم-عنوان-فقرة-- {
+	color:#000000;
+	font-family:"Yakout Linotype", serif;
+	font-size:13px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.462;
+	list-style-position:outside;
+	list-style-type:decimal;
+	margin-bottom:6px;
+	margin-left:0;
+	margin-right:28px;
+	margin-top:6px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:right;
+	text-decoration:none;
+	text-indent:-9px;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_رقم-التبويب {
+	color:#006991;
+	font-family:"Yakout Linotype", serif;
+	font-size:48px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_عنوان-اقسام-تفاعلية {
+	color:#006991;
+	font-family:"Yakout Linotype", serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1.357;
+	margin-bottom:11px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:18px;
+	orphans:99;
+	page-break-after:avoid;
+	page-break-before:auto;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_عنوان-التبويب {
+	color:#006991;
+	font-family:"Yakout Linotype", serif;
+	font-size:26px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_عنوان-مستوى-1 {
+	background-color:#006991;
+	color:#ffffff;
+	font-family:"Yakout Linotype", serif;
+	font-size:15px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.267;
+	list-style-position:inside;
+	list-style-type:decimal;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:11px;
+	orphans:99;
+	page-break-after:avoid;
+	page-break-before:auto;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_عنوان-مستوى-2 {
+	color:#006991;
+	font-family:"Yakout Linotype", serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.357;
+	list-style-position:inside;
+	list-style-type:decimal;
+	margin-bottom:9px;
+	margin-left:0;
+	margin-right:28px;
+	margin-top:9px;
+	orphans:99;
+	page-break-after:avoid;
+	page-break-before:auto;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_قائمة-List {
+	color:#000000;
+	font-family:"Yakout Linotype", serif;
+	font-size:13px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1.462;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:right;
+	text-decoration:none;
+	text-indent:28px;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_للمراجع_نص-عام {
+	color:#000000;
+	font-family:"Yakout Linotype", serif;
+	font-size:13px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_نص-سميك {
+	color:#000000;
+	font-family:"Yakout Linotype", serif;
+	font-size:13px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.462;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:right;
+	text-decoration:none;
+	text-indent:28px;
+	text-transform:none;
+	widows:1;
+}
+p.QOU-Books_نص-عام {
+	color:#000000;
+	font-family:"Yakout Linotype", serif;
+	font-size:13px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1.462;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:right;
+	text-decoration:none;
+	text-indent:28px;
+	text-transform:none;
+	widows:1;
+}
+span.Annotation-reference {
+	font-size:8px;
+}
+span.QOU-Books_Hyperlink {
+	color:#215e9e;
+	text-decoration:underline;
+}
+.QOU-Books_حجم-الترقيم {
+	font-size:15px;
+}
+.QOU-Books_حجم-التنقيط {
+	font-size:10px;
+}
+span.QOU-Books_نص-عريض-ملون {
+	color:#006991;
+	font-family:"Yakout Linotype", serif;
+	font-style:normal;
+	font-weight:bold;
+}
+span._idGenBNMarker-1 {
+	display:inline-block;
+	text-indent:0;
+	width:24px;
+}
+span._idGenBNMarker-2 {
+	display:inline-block;
+	text-indent:0;
+	width:8px;
+}
+span._idGenBNMarker-3 {
+	display:inline-block;
+	text-indent:0;
+	width:13px;
+}
+span._idGenBNMarker-4 {
+	display:inline-block;
+	text-indent:0;
+	width:12px;
+}
+span._idGenBNMarker-5 {
+	display:inline-block;
+	text-indent:0;
+	width:10px;
+}
+span._idGenBNMarker-6 {
+	display:inline-block;
+	font-family:Arial, sans-serif;
+	font-style:normal;
+	font-weight:bold;
+	text-indent:0;
+	width:14px;
+}
+span._idGenBNMarker-7 {
+	display:inline-block;
+	text-indent:0;
+	width:18px;
+}
+span._idGenBNMarker-8 {
+	display:inline-block;
+	font-family:"Yakout Linotype", serif;
+	font-style:normal;
+	font-weight:300;
+	text-indent:0;
+	width:14px;
+}
+span._idGenBNMarker-9 {
+	display:inline-block;
+	font-style:normal;
+	font-weight:bold;
+	text-indent:0;
+	width:12px;
+}
+span._idGenBNMarker-10 {
+	display:inline-block;
+	text-indent:0;
+	width:16px;
+}
+span._idGenBNMarker-11 {
+	display:inline-block;
+	text-indent:0;
+	width:82px;
+}
+span._idGenBNMarker-12 {
+	display:inline-block;
+	text-indent:0;
+	width:50px;
+}
+span._idGenBNMarker-13 {
+	display:inline-block;
+	text-indent:0;
+	width:11px;
+}
+span._idGenBNMarker-14 {
+	display:inline-block;
+	text-indent:0;
+	width:19px;
+}
+span._idGenBNMarker-15 {
+	display:inline-block;
+	text-indent:0;
+	width:48px;
+}
+span._idGenBNMarker-16 {
+	color:#050505;
+	display:inline-block;
+	text-indent:0;
+	width:10px;
+}
+span._idGenBNMarker-17 {
+	display:inline-block;
+	text-indent:0;
+	width:31px;
+}
+span._idGenBNMarker-18 {
+	color:#050505;
+	display:inline-block;
+	font-family:"Yakout Linotype", serif;
+	font-style:normal;
+	font-weight:300;
+	text-indent:0;
+	width:14px;
+}
+table.TableOverride-1 {
+	border-collapse:collapse;
+	border-width:1px;
+	margin-left:auto;
+}
+td.CellOverride-1 {
+	border-bottom-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-top-width:0px;
+	vertical-align:middle;
+}
+td.CellOverride-2 {
+	background-color:#bcbec0;
+	border-bottom-width:0px;
+	border-right-width:0px;
+	border-top-width:0px;
+	padding-bottom:0px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:0px;
+	vertical-align:middle;
+}
+td.CellOverride-3 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+}
+p.ParaOverride-1 {
+	text-align:center;
+}
+p.ParaOverride-2 {
+	margin-bottom:3px;
+	text-align:center;
+}
+p.ParaOverride-3 {
+	margin-right:28px;
+}
+p.ParaOverride-4 {
+	text-align:left;
+}
+p.ParaOverride-5 {
+	text-align:center;
+	text-indent:0;
+}
+p.ParaOverride-6 {
+	margin-right:57px;
+}
+p.ParaOverride-7 {
+	page-break-after:always;
+}
+p.ParaOverride-8 {
+	text-align:justify;
+	text-align-last:left;
+}
+p.ParaOverride-9 {
+	margin-top:20px;
+	text-align:left;
+}
+p.ParaOverride-10 {
+	margin-bottom:10px;
+}
+p.ParaOverride-11 {
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px 1px 1px 1px;
+	margin-bottom:8px;
+	margin-right:0;
+	text-indent:0;
+}
+p.ParaOverride-12 {
+	margin-bottom:10px;
+	margin-right:1px;
+	text-indent:0;
+}
+p.ParaOverride-13 {
+	margin-bottom:5px;
+}
+p.ParaOverride-14 {
+	border-color:#323edd;
+	border-style:solid;
+	margin-bottom:12px;
+	margin-right:0;
+	text-indent:0;
+}
+p.ParaOverride-15 {
+	margin-bottom:10px;
+	margin-right:0;
+}
+p.ParaOverride-16 {
+	margin-bottom:7px;
+}
+p.ParaOverride-17 {
+	margin-bottom:3px;
+}
+span.CharOverride-1 {
+	color:#006991;
+	font-size:18px;
+}
+span.CharOverride-2 {
+	color:#222222;
+}
+span.CharOverride-3 {
+	color:#323edd;
+	font-size:16px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-4 {
+	color:#323edd;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-5 {
+	color:#ff0000;
+}
+span.CharOverride-6 {
+	font-family:"Adobe Arabic", serif;
+	font-size:12px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-7 {
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-8 {
+	font-size:16px;
+}
+span.CharOverride-9 {
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-10 {
+	font-family:"Simplified Arabic", sans-serif;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-11 {
+	font-size:16px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-12 {
+	color:#666666;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-13 {
+	color:#050505;
+}
+span.CharOverride-14 {
+	color:#202124;
+}
+p._idGenParaOverride-1 {
+	page-break-after:always;
+}
+td._idGenCellOverride-1 {
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+}
+td._idGenCellOverride-2 {
+	border-left-color:#006991;
+	border-left-style:double;
+	border-left-width:2px;
+}
+td._idGenCellOverride-3 {
+	border-bottom-color:#006991;
+	border-bottom-style:double;
+	border-bottom-width:2px;
+	border-left-color:#006991;
+	border-left-style:double;
+	border-left-width:2px;
+	border-right-color:#006991;
+	border-right-style:double;
+	border-right-width:2px;
+	border-top-color:#006991;
+	border-top-style:double;
+	border-top-width:2px;
+}
+col._idGenTableRowColumn-1 {
+	width:108px;
+}
+col._idGenTableRowColumn-2 {
+	width:186px;
+}
+tr._idGenTableRowColumn-3 {
+	min-height:151px;
+}
+col._idGenTableRowColumn-4 {
+	width:300px;
+}
+col._idGenTableRowColumn-5 {
+	width:69px;
+}
+tr._idGenTableRowColumn-6 {
+	min-height:21px;
+}
+col._idGenTableRowColumn-7 {
+	width:386px;
+}
+tr._idGenTableRowColumn-8 {
+	min-height:355px;
+}
+col._idGenTableRowColumn-9 {
+	width:74px;
+}
+col._idGenTableRowColumn-10 {
+	width:311px;
+}
+tr._idGenTableRowColumn-11 {
+	min-height:91px;
+}
+col._idGenTableRowColumn-12 {
+	width:385px;
+}
+tr._idGenTableRowColumn-13 {
+	min-height:180px;
+}
+tr._idGenTableRowColumn-14 {
+	min-height:204px;
+}
+tr._idGenTableRowColumn-15 {
+	min-height:412px;
+}
+tr._idGenTableRowColumn-16 {
+	min-height:107px;
+}
+col._idGenTableRowColumn-17 {
+	width:312px;
+}
+tr._idGenTableRowColumn-18 {
+	min-height:361px;
+}
+tr._idGenTableRowColumn-19 {
+	min-height:70px;
+}
+tr._idGenTableRowColumn-20 {
+	min-height:73px;
+}
+tr._idGenTableRowColumn-21 {
+	min-height:33px;
+}
+tr._idGenTableRowColumn-22 {
+	min-height:35px;
+}
+tr._idGenTableRowColumn-23 {
+	min-height:50px;
+}
+tr._idGenTableRowColumn-24 {
+	min-height:39px;
+}
+tr._idGenTableRowColumn-25 {
+	min-height:46px;
+}
+tr._idGenTableRowColumn-26 {
+	min-height:54px;
+}
+tr._idGenTableRowColumn-27 {
+	min-height:36px;
+}
+col._idGenTableRowColumn-28 {
+	width:192px;
+}
+tr._idGenTableRowColumn-29 {
+	min-height:84px;
+}
+tr._idGenTableRowColumn-30 {
+	min-height:69px;
+}
+tr._idGenTableRowColumn-31 {
+	min-height:42px;
+}
+tr._idGenTableRowColumn-32 {
+	min-height:41px;
+}
+tr._idGenTableRowColumn-33 {
+	min-height:569px;
+}
+tr._idGenTableRowColumn-34 {
+	min-height:371px;
+}
+tr._idGenTableRowColumn-35 {
+	min-height:158px;
+}
+tr._idGenTableRowColumn-36 {
+	min-height:537px;
+}
+tr._idGenTableRowColumn-37 {
+	min-height:234px;
+}
+table._idGenTablePara-1 {
+	margin-left:auto;
+	margin-right:auto;
+}
+table._idGenTablePara-2 {
+	margin-left:auto;
+}
+#_idContainer012, #_idContainer013, #_idContainer016, #_idContainer017, #_idContainer018, #_idContainer019, #_idContainer020, #_idContainer021, #_idContainer023, #_idContainer024, #_idContainer025 {
+	display:inline-block;
+	height:28px;
+	width:28px;
+}
+#_idContainer014 {
+	display:inline-block;
+	width:30px;
+}
+#_idContainer015, #_idContainer022 {
+	display:inline-block;
+	height:24px;
+	width:28px;
+}
+#_idContainer027, #_idContainer028 {
+	display:inline-block;
+	width:37px;
+}
+img._idGenObjectAttribute-1 {
+	height:66px;
+	width:44px;
+}
+img._idGenObjectAttribute-2 {
+	height:278px;
+	width:387px;
+}
+img._idGenObjectAttribute-3 {
+	height:67px;
+	width:59px;
+}
+img._idGenObjectAttribute-4 {
+	height:48px;
+	width:51px;
+}
+img._idGenObjectAttribute-5 {
+	height:63px;
+	width:63px;
+}
+img._idGenObjectAttribute-6 {
+	height:65px;
+	width:50px;
+}
+img._idGenObjectAttribute-7 {
+	height:16px;
+	width:23px;
+}
+img._idGenObjectAttribute-8 {
+	height:100.00%;
+	min-width:100%;
+	width:100.00%;
+}
+img._idGenObjectAttribute-9 {
+	height:16px;
+	width:117px;
+}
+div._idGenObjectStyleOverride-1 {
+	border-width:0px;
+}
+div._idGenObjectStyle-Disabled {
+	background-color:transparent;
+	border-width:0px;
+}
+div._idGenObjectLayout-1 {
+	text-align:center;
+}
+div._idGenObjectLayout-2 {
+	text-align:left;
+}
