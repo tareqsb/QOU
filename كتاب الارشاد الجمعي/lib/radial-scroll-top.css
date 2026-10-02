@@ -1,0 +1,129 @@
+:host {
+  --button-size: 48px;
+  --small-btn-size: 38px;
+  --progress-color: #3b82f6;
+  --icon-color: #ffffff;
+  --border-color: #333333;
+  --bg-color: #1e1e1e;
+  --box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transform-origin: bottom left;
+}
+
+:host([theme="dark"]) {
+  --icon-color: #f1f1f1;
+  --border-color: #444444;
+  --bg-color: #1e1e1e;
+  --box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+.font-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.3s ease-in-out;
+}
+
+.font-controls.is-active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.btn-font {
+  width: var(--small-btn-size);
+  height: var(--small-btn-size);
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  color: var(--icon-color);
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--box-shadow);
+  user-select: none;
+  transition: transform 0.15s ease, background-color 0.2s ease;
+}
+
+.btn-font:active {
+  transform: scale(0.92);
+}
+
+.cs-scroll-top {
+  position: relative;
+  width: var(--button-size);
+  height: var(--button-size);
+  background-color: var(--bg-color);
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--box-shadow);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px);
+  transition: all 0.3s ease-in-out;
+}
+
+.cs-scroll-top.is-active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.cs-icon-chevron-up {
+  width: 18px;
+  height: 18px;
+  stroke: var(--icon-color);
+  stroke-width: 2.5;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  z-index: 2;
+}
+
+.cs-scroll-top-border,
+.cs-scroll-top-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cs-scroll-top-border svg,
+.cs-scroll-top-progress svg {
+  width: var(--button-size);
+  height: var(--button-size);
+  display: block;
+}
+
+.cs-scroll-top-border path {
+  stroke: var(--border-color);
+  stroke-width: 2;
+  fill: none;
+}
+
+.cs-scroll-top-progress path {
+  stroke: var(--progress-color);
+  stroke-width: 2;
+  fill: none;
+  transition: stroke-dashoffset 10ms linear;
+}
