@@ -1,0 +1,21 @@
+html { 
+  overflow-x: hidden !important; 
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  direction: rtl;
+}
+
+body { 
+  margin: 0 auto !important; 
+  width: 450px !important; 
+  padding: 20px 15px !important;
+  box-sizing: border-box !important;
+  transform-origin: top center !important;
+  transition: zoom 0.1s ease-out;
+}
+
+img, table, svg, iframe, object, div, p {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
