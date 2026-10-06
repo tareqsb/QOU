@@ -9,7 +9,7 @@
 
   // 2. Calculation logic capped at equivalent 1000px viewport width
   function applyResponsiveZoom() {
-    const targetWidth = 380; 
+    const targetWidth = 450; 
     const maxZoom = 2.222; // Capped at equivalent of 1000px viewport (1000 / 450)
     const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
 
