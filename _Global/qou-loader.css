@@ -1,0 +1,63 @@
+/* =========================================================
+   QOU Loader - CSS only
+   The loader stays until the page is explicitly revealed by JS:
+   document.documentElement.className += " qou-ready";
+   ========================================================= */
+
+/* ---------- Hide the body while loading ---------- */
+html:not(.qou-ready) body {
+    visibility: hidden;
+}
+
+/* ---------- Skeleton layout overlay ---------- */
+html:not(.qou-ready)::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2147483646;
+    pointer-events: none;
+    background:
+        /* header bar */
+        linear-gradient(#d9dde3, #d9dde3) 5% 24px / 90% 18px no-repeat,
+        /* title */
+        linear-gradient(#d9dde3, #d9dde3) 5% 80px / 60% 26px no-repeat,
+        /* text lines */
+        linear-gradient(#d9dde3, #d9dde3) 5% 140px / 90% 12px no-repeat,
+        linear-gradient(#d9dde3, #d9dde3) 5% 170px / 85% 12px no-repeat,
+        linear-gradient(#d9dde3, #d9dde3) 5% 200px / 90% 12px no-repeat,
+        linear-gradient(#d9dde3, #d9dde3) 5% 230px / 70% 12px no-repeat,
+        /* image block */
+        linear-gradient(#d9dde3, #d9dde3) 5% 280px / 90% 160px no-repeat,
+        /* page background */
+        #f4f6f8;
+    -webkit-animation: qou-pulse 1.4s ease-in-out infinite;
+    animation: qou-pulse 1.4s ease-in-out infinite;
+}
+
+/* ---------- Spinner ---------- */
+html:not(.qou-ready)::after {
+    content: "";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 44px;
+    height: 44px;
+    margin: -22px 0 0 -22px;
+    z-index: 2147483647;
+    pointer-events: none;
+    border: 4px solid rgba(0, 0, 0, 0.12);
+    border-top-color: #2f6fed;
+    border-radius: 50%;
+    -webkit-animation: qou-spin 0.8s linear infinite;
+    animation: qou-spin 0.8s linear infinite;
+}
+
+/* ---------- Keyframes ---------- */
+@-webkit-keyframes qou-spin  { to { -webkit-transform: rotate(360deg); } }
+@keyframes qou-spin          { to { transform: rotate(360deg); } }
+
+@-webkit-keyframes qou-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+@keyframes qou-pulse         { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
